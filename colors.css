@@ -1,0 +1,23 @@
+:root{
+    --color-blue-nav:#6aceff;
+    --color-purple-nav:#b25eff;
+    --color-white:white;
+    --color-gray-grad-hover:#c6c6c6;
+    --color-gray-nav:rgba(35, 35, 40, 1);
+    --color-gray-nav-hover:#646464;
+    --color-main-background:#232328;
+    --color-blue-button:#0197e2;
+    --color-blue-focus-button:#076c9f;
+    --color-gray-button:#2c2c33;
+    --color-gray-focus-button:#2a2a2f;
+    --color-gray-hover-button:#3e3e42;
+    --color-light-blue-gradiant:#69cdff;
+    --color-blue-gradiant:#06a1ef;
+    --color-gray-section-p:#728a96;
+    --color-gray-icons-boxes:#eef2f5;
+    --color-gray-boxes:#f7f9fb;
+    --color-ton-box-border:#728a96;
+    --color-blue-section2-links:#0088cc;
+    --color-blue-hover-table-link:#62b6e0;
+    --color-gray-table-p:#9dadb6;
+}
