@@ -20,4 +20,19 @@
     --color-blue-section2-links:#0088cc;
     --color-blue-hover-table-link:#62b6e0;
     --color-gray-table-p:#9dadb6;
+    --background_dark_gradient: linear-gradient(0deg,#232328,#343437 101.47%);
+    --color-gray-mac-buttom:#3c3c3f;
+    --color-gray-mac-p:#bfbfc0;
+    --color-gray-macbackground:#2e2e33;
+    --color-mac-nav:#29292e;
+    --color-mac-circle-border-red:#ce5347;
+    --color-mac-circle-background-red:#ed6a5e;
+    --color-mac-circle-background-yellow:#f6be4f;
+    --color-mac-circle-background-green:#58a942;
+    --color-mac-circle-border-yellow:#d6a243;
+    --color-mac-circle-border-green:#62c554;
+    --button_dark_secondary_pressed: hsla(0,0%,100%,0.03);
+    --icon_dark_primary: #02a8fb;
+    --text_light_secondary: #728a96;
+    --footer-line:#e5eaec;
 }
