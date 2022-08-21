@@ -766,13 +766,15 @@ section .title2 p {
 .section6_head p {
     max-width: 600px;
     color: var(--color-gray-mac-p);
-}   
-.bb{
+}
+
+.bb {
     display: flex;
     margin-top: 50px;
 
 }
-.bb a{
+
+.bb a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -781,7 +783,7 @@ section .title2 p {
 
 
 .section6_head .blue-button {
-    
+
     text-decoration: none;
     text-align: center;
     line-height: 64px;
@@ -795,7 +797,7 @@ section .title2 p {
     width: 164px;
 }
 
-.github-button{
+.github-button {
     text-decoration: none;
     text-align: center;
     line-height: 64px;
@@ -813,52 +815,57 @@ section .title2 p {
     margin-left: 20px;
 }
 
-.mac-window{
+.mac-window {
     border-radius: 32px;
     overflow: hidden;
     margin-top: 60px;
     box-shadow: 0 4px 24px rgb(0 0 0 / 8%);
 }
-.mac-window{
 
-}
-.mac-window-header{
+.mac-window {}
+
+.mac-window-header {
 
     background-color: var(--color-mac-nav);
     padding: 24px 40px;
 
 }
-.mac-window-header span{
+
+.mac-window-header span {
     width: 12px;
     height: 12px;
     border-radius: 6px;
     margin-right: 8px;
     display: inline-block;
 }
-.s1{
-   border-color: var(--color-mac-circle-border-red); 
-   background-color: var(--color-mac-circle-background-red);
+
+.s1 {
+    border-color: var(--color-mac-circle-border-red);
+    background-color: var(--color-mac-circle-background-red);
 }
-.s2{
-    border-color: var(--color-mac-circle-border-yellow); 
+
+.s2 {
+    border-color: var(--color-mac-circle-border-yellow);
     background-color: var(--color-mac-circle-background-yellow);
 }
-.s3{
-    border-color: var(--color-mac-circle-border-green); 
+
+.s3 {
+    border-color: var(--color-mac-circle-border-green);
     background-color: var(--color-mac-circle-background-green);
 }
 
-.macwindow-body{
+.macwindow-body {
     background-color: var(--color-gray-macbackground);
     display: flex;
     padding: 40px 0;
 }
 
-.left-nav{
+.left-nav {
     color: var(--color-white);
     min-width: 250px;
     position: relative;
 }
+
 .left-nav::before {
     position: absolute;
     top: 0;
@@ -867,9 +874,10 @@ section .title2 p {
     height: 100%;
     content: "";
     border-radius: 2px;
-    background-color: hsla(0,0%,100%,0.06);
+    background-color: hsla(0, 0%, 100%, 0.06);
 }
-.left-nav div{
+
+.left-nav div {
     line-height: 52px;
     height: 52px;
     font-size: 18px;
@@ -879,27 +887,32 @@ section .title2 p {
     margin-bottom: 8px;
 
 }
-.macwindow-content h3,.macwindow-content p{
+
+.macwindow-content h3,
+.macwindow-content p {
     color: var(--color-white);
 }
-.macwindow-content{
+
+.macwindow-content {
     padding: 0 46px 92px;
     position: relative;
 }
-.macwindow-content h3{
+
+.macwindow-content h3 {
     font-size: 28px;
     font-weight: 700;
     margin: 0;
     margin-bottom: 20px;
 }
-.macwindow-content p{
+
+.macwindow-content p {
     font-size: 20px;
     line-height: 30px;
     word-spacing: 10px;
-    font-family: IBMPlexMono,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-family: IBMPlexMono, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.macwindow-content .read-more{
+.macwindow-content .read-more {
     font-weight: 700;
     margin-top: 24px;
     display: inline-block;
@@ -908,24 +921,30 @@ section .title2 p {
     color: var(--color-blue-section2-links);
     text-decoration: none;
 }
-.previous, .next{
+
+.previous,
+.next {
     text-decoration: none;
     font-size: 18px;
     line-height: 32px;
     font-weight: 700;
     color: var(--color-white);
 }
-.previous{
+
+.previous {
     margin-right: 600px;
 }
-.macwindow-content div{
+
+.macwindow-content div {
     position: absolute;
     bottom: -10px;
 }
-.left-nav .active{
+
+.left-nav .active {
     background-color: var(--button_dark_secondary_pressed);
     position: relative;
 }
+
 .left-nav .active::before {
     position: absolute;
     top: 0;
@@ -944,42 +963,47 @@ section .title2 p {
 
 
 
-.container5{
+.container5 {
     margin: auto;
     width: 1160px;
     align-items: center;
     display: flex;
     padding: 140px 0;
 }
-.image{
+
+.image {
     width: 548px;
     height: 444px;
 }
-.image img{
+
+.image img {
     width: 100%;
 }
-.tel-twi{
+
+.tel-twi {
     display: flex;
 }
-.tel-twi a{
 
-        font-weight: 700;
-        margin-top: 24px;
-        display: inline-block;
-        font-size: 18px;
-        line-height: 32px;
-        color: var(--color-blue-section2-links);
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        margin-right: 25px;
+.tel-twi a {
+
+    font-weight: 700;
+    margin-top: 24px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--color-blue-section2-links);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
 }
-.section7 .content{
+
+.section7 .content {
     padding-right: 40px;
 }
 
 
-.section8-top{
+.section8-top {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -989,15 +1013,16 @@ section .title2 p {
     background-color: var(--color-gray-boxes);
     border-radius: 64px;
     position: relative;
-    }
-.section8 p{
+}
+
+.section8 p {
     max-width: 580px;
     text-align: center;
     padding-top: 10px;
     margin-bottom: 40px;
 }
 
-.section8 a{
+.section8 a {
     text-decoration: none;
     text-align: center;
     color: var(--color-white);
@@ -1011,25 +1036,27 @@ section .title2 p {
 
 }
 
-.app-images{
+.app-images {
     display: flex;
     justify-content: space-between;
     margin: auto;
     width: 1160px;
 
 }
-.app-images img{
+
+.app-images img {
     width: 110px;
     height: 110px;
     position: absolute;
 }
 
-.back{
+.back {
     background-image: url(./ton/download.svg);
     position: absolute;
     top: 30px;
 }
-.image-app{
+
+.image-app {
     position: relative;
 }
 
@@ -1041,7 +1068,7 @@ section .title2 p {
 
 
 
-.section9 .container5{
+.section9 .container5 {
     flex-direction: column;
     display: flex;
     margin: auto;
@@ -1049,37 +1076,42 @@ section .title2 p {
 }
 
 
-.section9-head{
+.section9-head {
     text-align: center;
 }
-.section9-head p{
+
+.section9-head p {
     max-width: 550px;
     margin-bottom: 70px;
 }
 
 
-.section9 .boxes2{
+.section9 .boxes2 {
     display: flex;
 
 }
-.boxes2 h6{
+
+.boxes2 h6 {
     margin: 0;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
     margin-top: 20px;
 }
-.boxes2 img{
+
+.boxes2 img {
     width: 360px;
     height: 168px;
     border-radius: 24px;
 }
-.boxes2 .divv{
+
+.boxes2 .divv {
     padding: 0 20px;
     display: flex;
     flex-direction: column;
 }
-.boxes2 a{
+
+.boxes2 a {
     font-weight: 700;
     margin-top: 20px;
     display: inline-block;
@@ -1091,12 +1123,14 @@ section .title2 p {
     align-items: center;
     margin-right: 25px;
 }
-.boxes2 p{
+
+.boxes2 p {
     max-width: 300px;
     line-height: 30px;
     margin-top: 5px;
 }
-.divv div{
+
+.divv div {
     padding: 0 16px;
 }
 
@@ -1104,41 +1138,46 @@ section .title2 p {
 
 
 
-.section10 .container6{
+.section10 .container6 {
     flex-direction: column;
     display: flex;
     margin: auto;
     width: 1160px;
 }
-.footer-top{
+
+.footer-top {
     display: flex;
     justify-content: space-between;
     padding-bottom: 38px;
 
 }
-.footer-top a{
+
+.footer-top a {
     text-decoration: none;
-    color:var(--text_light_secondary);
+    color: var(--text_light_secondary);
     font-size: 15px;
     line-height: 30px;
     font-size: 15px;
 }
-.footer-top h5{
+
+.footer-top h5 {
     margin: 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
 }
-.footer-top .col{
+
+.footer-top .col {
     width: 151px;
 }
-.foundation{
-    color:var(--text_light_secondary);
-}    
-.footer-buttom{
+
+.foundation {
+    color: var(--text_light_secondary);
+}
+
+.footer-buttom {
     padding: 24px 0 40px;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid var(--footer-line) ;
+    border-top: 1px solid var(--footer-line);
 }
-
